@@ -9,7 +9,7 @@ html,body{
   display: grid;
   height: 100%;
   place-items: center;
-  background: #000;
+  background: -webkit-linear-gradient(left, #7888bb, #5845c4);
   text-align: center;
 }
 .container{
@@ -73,5 +73,5 @@ html,body{
   transition: all 0.3s ease;
 }
 .input-data button:hover{
-  background: #222;
+  background: rgba(39, 12, 194, 0.733);
 }

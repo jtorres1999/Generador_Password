@@ -2,7 +2,7 @@ const display = document.querySelector("input"),
 button = document.querySelector("button"),
 copyBtn = document.querySelector("span.far"),
 copyActive = document.querySelector("span.fas");
-let chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]:;?><,./-=";
+let chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%&*`";
 button.onclick = ()=>{
   let i,
   randomPassword = "";
